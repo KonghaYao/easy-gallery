@@ -1,7 +1,7 @@
 import type { AV } from "../../adapter/database/AV";
 import { atom, reflect, resource, useEffect, usePagination } from "@cn-ui/use";
 import { createEffect, createSelector } from "solid-js";
-import { API, ImageInfo } from "../../adapter/database/Meili";
+import { API, ImageInfo } from "../../adapter/database/Cloud";
 import { createEndpoint } from "../createEndpoint";
 import { ImageKitOSS } from "../../adapter/oss";
 

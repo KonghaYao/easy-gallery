@@ -19,8 +19,4 @@ export class ImageKitOSS {
             isPrivateFile: false,
         });
     }
-
-    // listFile(options: ListFileOptions) {
-    //     return this.sys!.listFiles(options);
-    // }
 }

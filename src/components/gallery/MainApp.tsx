@@ -2,7 +2,7 @@ import ImageViewer from "awesome-image-viewer";
 import { useGallery } from "./useGallery";
 import { WaterFall } from "@cn-ui/core";
 import { asyncLock, atom, reflect } from "@cn-ui/use";
-import type { ImageInfo } from "../../adapter/database/Meili";
+import type { ImageInfo } from "../../adapter/database/Cloud";
 
 export const MainApp = () => {
     const { usingGallery, imageList, imageStack } = useGallery();
